@@ -1,0 +1,16 @@
+begin transaction
+
+USE [testbd]
+GO
+
+INSERT INTO [dbo].[Products]
+           ([id]
+           ,[product]
+           ,[amount])
+     VALUES
+           (1
+           ,'товар'
+           ,100)
+GO
+
+commit;
