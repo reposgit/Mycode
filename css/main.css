@@ -1,0 +1,21 @@
+@import "http://fonts.fontstorage.com/import/opensans.css";
+/*
+	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
+*/
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+	font-size: 16px;
+	line-height: 1.4;
+	
+	font-family: "Open Sans", sans-serif;
+}
+
+
+.section {
+	margin-bottom: 50px;
+}

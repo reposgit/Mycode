@@ -1,0 +1,43 @@
+/*********************TYPO*******************/
+h1 {
+	font-size: 32px;
+	font-weight: 200;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/**********************TYPO***********************/

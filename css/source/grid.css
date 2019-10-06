@@ -1,0 +1,101 @@
+/**************GRID******************/
+/* Container and Row */
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/* Серый фон */
+	/*background-color: #CFD8DC;*/
+}
+
+.container:after, .container:before, .row:after, .row:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Планшеты */
+/* от 768 px и более */
+@media (min-width: 768px){
+	
+	/* Изменяем ширину контейнера */
+	.container {
+		width: 700px;
+		/* Красный фон */
+		/*background-color: #ef5350;*/
+	}
+	
+}
+
+
+/* Десктопы */
+/* Медиа запрос. Десктопы. Для экранов с шириной 1200px и более*/
+@media (min-width: 1200px){
+	
+	/* Изменяем ширину контейнера */
+	.container {
+		width: 1170px;
+		/* Желтый фон */
+		/*background-color: #FFD54F;*/
+	}
+}
+
+
+/* Columns */
+
+.col-sm-12, .col-sm-6, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1,
+.col-md-12, .col-md-6, .col-md-4, .col-md-3, .col-md-2, .col-md-1,
+.col-lg-12, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1  {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.col-sm-12		{ width: 100%; }
+.col-sm-6		{ width: 50%;  }
+.col-sm-4 		{ width: 33.3333333333%; } 
+.col-sm-3 		{ width: 25%; } 
+.col-sm-2 		{ width: 16.6666666%; } 
+.col-sm-1 		{ width: 8.333333333%; }
+
+
+/* Медиа запросы */
+
+/* MEDIUM */
+/* Медиа запрос. Планшеты. Для экранов с шириной 768px и более*/
+@media (min-width: 768px){
+
+	/* Изменяем ширину блоков */
+	.col-md-12		{ width: 100%; }
+	.col-md-6		{ width: 50%;  }
+	.col-md-4 		{ width: 33.3333333333%; } 
+	.col-md-3 		{ width: 25%; } 
+	.col-md-2 		{ width: 16.6666666%; } 
+	.col-md-1 		{ width: 8.333333333%; } 
+}
+
+
+
+
+
+/* LARGE */
+/* Медиа запрос. Десктопы. Для экранов с шириной 1200px и более*/
+@media (min-width: 1200px){
+	
+	/* Изменяем ширину блоков */
+	.col-lg-12		{ width: 100%; }
+	.col-lg-6		{ width: 50%;  }
+	.col-lg-4 		{ width: 33.3333333333%; } 
+	.col-lg-3 		{ width: 25%; } 
+	.col-lg-2 		{ width: 16.6666666%; } 
+	.col-lg-1 		{ width: 8.333333333%; }
+}
+
+
+.col-1 .visible {
+	font-size: 16px;
+}
+/*********************GRID******************/
