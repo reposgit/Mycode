@@ -1,0 +1,7 @@
+E:\C#\reservation\reservation\bin\Debug\reservation.exe.config
+E:\C#\reservation\reservation\bin\Debug\reservation.exe
+E:\C#\reservation\reservation\bin\Debug\reservation.pdb
+E:\C#\reservation\reservation\obj\Debug\reservation.csproj.CoreCompileInputs.cache
+E:\C#\reservation\reservation\obj\Debug\reservation.exe
+E:\C#\reservation\reservation\obj\Debug\reservation.pdb
+E:\C#\reservation\reservation\obj\Debug\reservation.csprojAssemblyReference.cache
