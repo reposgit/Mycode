@@ -1,6 +1,6 @@
 Список каталогов:
--C#, VBA: примеры рабочих проектов
+-C#, VBA
 -reservation - код C#
 -PHP код
 -JS, CSS - примеры кода
--Laravel
+-Laravel- учебные
